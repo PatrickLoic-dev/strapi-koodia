@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "delivery_people",
+  "info": {
+    "singularName": "delivery-person",
+    "pluralName": "delivery-people",
+    "displayName": "deliveryPerson"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "Disponible",
+        "Occupé"
+      ]
+    },
+    "vehicule": {
+      "type": "string"
+    }
+  }
+}
