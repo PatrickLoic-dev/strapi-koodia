@@ -23,7 +23,7 @@
       "type": "email",
       "minLength": 6,
       "configurable": false,
-      "required": true
+      "required": false
     },
     "provider": {
       "type": "string",
@@ -65,10 +65,26 @@
       "inversedBy": "users",
       "configurable": false
     },
-    "locations": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::location.location"
+    "phone": {
+      "type": "biginteger"
+    },
+    "adresse": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "otp": {
+      "type": "biginteger"
+    },
+    "longitude": {
+      "type": "biginteger"
+    },
+    "latitude": {
+      "type": "biginteger"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }

@@ -9,12 +9,14 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.11.1",
-    "@strapi/plugin-users-permissions": "4.11.1",
     "@strapi/plugin-i18n": "4.11.1",
-    "better-sqlite3": "8.0.1"
+    "@strapi/plugin-users-permissions": "4.11.1",
+    "@strapi/strapi": "4.11.1",
+    "better-sqlite3": "8.0.1",
+    "nodemailer": "^6.9.4",
+    "twilio": "^4.15.0",
+    "uuidv4": "^6.2.13"
   },
   "author": {
     "name": "A Strapi developer"
@@ -26,5 +28,8 @@
     "node": ">=14.19.1 <=18.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2"
+  }
 }
